@@ -24,7 +24,7 @@ public class PG4 {
 		
 		String title = driver.findElement(By.className("title")).getText();
 		System.out.println(title);
-//		webelement.click();
+		System.out.println(title);
 		
 		// Close Firefox
 		driver.quit();
