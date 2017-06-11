@@ -27,7 +27,7 @@ public class PG4 {
 //		webelement.click();
 		
 		// Close Firefox
-		driver.close();
+		driver.quit();
 	}
 
 }
